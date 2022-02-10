@@ -12,10 +12,10 @@ from PIL import Image
 loc = path.dirname(__file__)
 img = np.array(Image.open(path.join(loc, "test.png")))
 
-ck = 'NwyXPX2muzzHHdPnmZoU0ME5O'
-cs= 'OM6YrlNOfvZxE68vmMMNhVwXOov2XzaHqUFdE7jRI6taNIknQQ'
-at = '226944425-hhIKArIDqj0id9QqhwhMLY7BGxQ2fAVTfczuBcsL'
-ats = 'meFpmDmoMgjJGsK0pT37rpDvt4Ze3RODL7zavUbmWdyTD'
+ck = ''
+cs= '' 
+at = ''
+ats = ''
 
 count = 20000
 connect = OAuthHandler(ck, cs)
